@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "R4Reb5wy6YbBPhbFfAmTiqK06vkiTgdNM0dYoeOCiXBavQ5QfJQR4iw4Z0PVU4JovnuH+cN4luvHRzsDZSVZ2w==",
+  "dgSpecHash": "5U7gsleql4UNYv8jIaqqbFBLyvsMy/XDTmOo/m9/qQUYouKano39MLkPmO9VGIDm1klFyQt8FqUf4NiA/uBtxw==",
   "success": true,
   "projectFilePath": "D:\\Code\\cotdg-mod\\cotdg-mod.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\stream\\.nuget\\packages\\memory.dll\\1.2.21\\memory.dll.1.2.21.nupkg.sha512",
+    "C:\\Users\\stream\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,16 @@
+D:\Code\cotdg-mod\obj\x64\Debug\net5.0-windows\cotdg-mod.csprojAssemblyReference.cache
+D:\Code\cotdg-mod\obj\x64\Debug\net5.0-windows\cotdg-mod.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\cotdg-mod\obj\x64\Debug\net5.0-windows\cotdg-mod.csproj.CoreCompileInputs.cache
+D:\Code\cotdg-mod\bin\x64\Debug\net5.0-windows\cotdg-mod.exe
+D:\Code\cotdg-mod\bin\x64\Debug\net5.0-windows\cotdg-mod.deps.json
+D:\Code\cotdg-mod\bin\x64\Debug\net5.0-windows\cotdg-mod.runtimeconfig.json
+D:\Code\cotdg-mod\bin\x64\Debug\net5.0-windows\cotdg-mod.runtimeconfig.dev.json
+D:\Code\cotdg-mod\bin\x64\Debug\net5.0-windows\cotdg-mod.dll
+D:\Code\cotdg-mod\bin\x64\Debug\net5.0-windows\ref\cotdg-mod.dll
+D:\Code\cotdg-mod\bin\x64\Debug\net5.0-windows\cotdg-mod.pdb
+D:\Code\cotdg-mod\bin\x64\Debug\net5.0-windows\Memory.dll
+D:\Code\cotdg-mod\obj\x64\Debug\net5.0-windows\cotdg-mod.csproj.CopyComplete
+D:\Code\cotdg-mod\obj\x64\Debug\net5.0-windows\cotdg-mod.dll
+D:\Code\cotdg-mod\obj\x64\Debug\net5.0-windows\ref\cotdg-mod.dll
+D:\Code\cotdg-mod\obj\x64\Debug\net5.0-windows\cotdg-mod.pdb
+D:\Code\cotdg-mod\obj\x64\Debug\net5.0-windows\cotdg-mod.genruntimeconfig.cache

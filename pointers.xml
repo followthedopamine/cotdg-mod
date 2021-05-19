@@ -1,0 +1,13 @@
+<Pointers>
+  <Pointer id="DivineFavor">
+    <Base>0x011A2A50</Base>
+    <Offset>0x2B8</Offset>
+    <Offset>0x0</Offset>
+  </Pointer>
+  <Pointer id="Dexterity">
+    <Base></Base>
+    <Offset>0xA4</Offset>
+    <Offset>0x18</Offset>
+    <Offset>0x498</Offset>
+  </Pointer>
+</Pointers>
