@@ -20,8 +20,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Fasm.NET">
+      <HintPath>Fasm.NET.dll</HintPath>
+    </Reference>
     <Reference Include="memory">
       <HintPath>..\MemoryPatternScanner\memory\bin\Release\memory.dll</HintPath>
+    </Reference>
+    <Reference Include="MemorySharp">
+      <HintPath>MemorySharp.dll</HintPath>
     </Reference>
   </ItemGroup>
 

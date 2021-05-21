@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using Memory;
 using LiveSplit.ComponentUtil;
+using Binarysharp.MemoryManagement;
 
 namespace cotdg_mod
 {
@@ -15,6 +16,7 @@ namespace cotdg_mod
 
         public async void FindPlayer ()
         {
+            Process process = Process.GetProcessesByName("Curse of the Dead Gods")[0];
             Console.WriteLine("Test");
             Mem MemLib = new Mem();
             // open the process and check if it was successful before the AoB scan
@@ -25,7 +27,7 @@ namespace cotdg_mod
             }
 
             // AoB scan and store it in AoBScanResults. We specify our start and end address regions to decrease scan time.
-            IEnumerable<long> AoBScanResults = await MemLib.AoBScan("F3 0F 10 B3 10 EE 00 00 80");
+            IEnumerable<long> AoBScanResults = await MemLib.AoBScan("F3 0F 10 B3 10 EE 00 00 74");
 
             // get the first found address, store it in the variable SingleAoBScanResult
             long SingleAoBScanResult = AoBScanResults.FirstOrDefault();
@@ -33,7 +35,20 @@ namespace cotdg_mod
             //Console.WriteLine(MemLib.ReadUInt(SingleAoBScanResult.ToString());
             // pop up message box that shows our first result
             Console.WriteLine("Our First Found Address is " + SingleAoBScanResult);
-            
+
+            var address = IntPtr.Zero;
+            var sharp = new MemorySharp(process);
+
+            // Execute code and get the return value as boolean
+            sharp.Assembly.Inject(
+            new[]
+                {
+                    "mov Curse of the Dead Gods.exe+0,rbx",
+                    "movss xmm6,[rbx+0000EE10]",
+                    "jmp return"
+                },
+            address);
+                        
             long SinglePlusOffsets = SingleAoBScanResult + 0x174 + 0x860 + 0x20 + 0x08;
             Console.WriteLine((SingleAoBScanResult).ToString("X"));
             Console.WriteLine((SinglePlusOffsets).ToString("X"));

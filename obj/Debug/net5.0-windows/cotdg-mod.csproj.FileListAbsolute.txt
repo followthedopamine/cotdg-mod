@@ -14,3 +14,5 @@ D:\Code\cotdg-mod\obj\Debug\net5.0-windows\cotdg-mod.pdb
 D:\Code\cotdg-mod\obj\Debug\net5.0-windows\cotdg-mod.genruntimeconfig.cache
 D:\Code\cotdg-mod\bin\Debug\net5.0-windows\memory.dll
 D:\Code\cotdg-mod\obj\Debug\net5.0-windows\cotdg-mod.csproj.CopyComplete
+D:\Code\cotdg-mod\bin\Debug\net5.0-windows\Fasm.NET.dll
+D:\Code\cotdg-mod\bin\Debug\net5.0-windows\MemorySharp.dll
